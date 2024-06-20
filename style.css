@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    background-color: #081b31;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;/* We are using line height in order give space between
+    the text the of the upper side and the lower side so the text just not stick
+    to the top or bottom */
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: #081b31;
+}
+
+img{
+    height: 150px;
+    width:150px;
+    object-fit: cover;/* this is used to make img look better after
+    styling the image becomes either to streched or not */
+    border-radius: 50%;/* To make circular images */
+
+}
+
+.choices{
+    display: flex;/* Places all images or anything inside the div in same line */
+    justify-content: center;/* To make the items horizontally center */
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+
+#user-score,#comp-score{
+    font-size: 4rem;
+}
+
+.msg-container{
+    margin-top: 5rem;
+}
+
+#msg{
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;/* It only applies background color to the text instead of
+    the whole div or line */
+    padding: 1rem;
+    border-radius: 1rem;
+
+
+}
